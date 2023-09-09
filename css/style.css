@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1550&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    transition: 40s;
+
+    animation-name: animate ;
+    animation-duration:5s ;
+    animation-direction:alternate-reverse ;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite ;
+    animation-play-state:running ;
+    animation-timing-function:ease-in-out ;
+
+
+}
+
+@keyframes animate {
+    0%{
+        background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1550&q=80");
+    }20%{
+        background-image: url("https://img.freepik.com/free-photo/female-friends-out-shopping-together_53876-25041.jpg?w=2000");
+    }
+    40%{
+        background-image: url("https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg");
+    }60%{
+        background-image: url("https://www.kotak.com/content/dam/Kotak/product_card_images/how-credit-cards-enhance-your-shopping-experience.jpg");
+    }80%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbnaOcBbcslgUPOo-91G3Tf0RiJE0uSB3ww&usqp=CAU");
+    }100%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeUZcYA0P8t5lV7fJeK5arotgkhBaiBNCg8Q&usqp=CAU");
+    }
+    
+}
+
+.container{
+    color: black;
+    font-weight: bold;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+h1{
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    height: 40vh;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+nav ul{
+    margin: 0px 0px 250px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+  padding: 0 23px;
+    
+   }
+   nav ul li  :hover{
+    color: rgb(129, 11, 11);
+    font-weight: bold;
+   }
+   
+   nav ul li a{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    
+   } 
+   nav ul li a :hover{
+    color: rgb(150, 29, 29);
+    font-weight: bold;
+   }
+   /* .law input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   } */
+   .law{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+   }
+   .law ul li :hover{
+    color: rgb(150, 29, 29);
+   }
+   
+   .law ul li a{
+   
+   
+    font-size: 35px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 27vh;
+ 
+   }
+   .law ul li a :hover{
+    color: black;
+   }
+   .h2{
+    font-family: Playfair Display,serif;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-transform: none;
+    font-style: italic;
+    margin: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+   }
+  
+ 
